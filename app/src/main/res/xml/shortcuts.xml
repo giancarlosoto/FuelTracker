@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shortcut: Record fuel -->
+    <shortcut
+        android:shortcutId="record_fuel"
+        android:shortcutShortLabel="@string/shortcut_record_fuel"
+        android:shortcutLongLabel="@string/shortcut_record_fuel_long"
+        android:icon="@mipmap/ic_launcher"
+        android:enabled="true">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.fueltracker.app"
+            android:targetClass="com.fueltracker.app.voice.VoiceActionActivity"
+            android:data="app://fueltracker/record" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <!-- Shortcut: Check status -->
+    <shortcut
+        android:shortcutId="check_status"
+        android:shortcutShortLabel="@string/shortcut_check_status"
+        android:shortcutLongLabel="@string/shortcut_check_status_long"
+        android:icon="@mipmap/ic_launcher"
+        android:enabled="true">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.fueltracker.app"
+            android:targetClass="com.fueltracker.app.voice.VoiceActionActivity"
+            android:data="app://fueltracker/status" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+</shortcuts>

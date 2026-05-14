@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="primary_dark">#FF0D1B2A</color>
+    <color name="primary_medium">#FF1B2838</color>
+    <color name="primary_surface">#FF243447</color>
+    <color name="primary_accent">#FF00D4AA</color>
+    <color name="primary_accent_light">#FF5DFFD0</color>
+
+    <!-- Secondary -->
+    <color name="secondary_blue">#FF4DA6FF</color>
+    <color name="secondary_orange">#FFFF9F43</color>
+    <color name="secondary_green">#FF2ED573</color>
+    <color name="secondary_red">#FFFF6B6B</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFEEEEEE</color>
+    <color name="text_secondary">#FFAABBCC</color>
+    <color name="text_muted">#FF667788</color>
+
+    <!-- System -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FuelTracker</string>
+
+    <!-- Shortcuts -->
+    <string name="shortcut_record_fuel">Registrar carga</string>
+    <string name="shortcut_record_fuel_long">Registrar carga de combustible</string>
+    <string name="shortcut_check_status">Ver rendimiento</string>
+    <string name="shortcut_check_status_long">Ver rendimiento de combustible</string>
+
+    <!-- Car Dashboard -->
+    <string name="car_efficiency_label">Rendimiento Actual</string>
+    <string name="car_cost_label">Costo por Kilómetro</string>
+    <string name="car_vehicle_label">Estado del Vehículo</string>
+    <string name="car_last_refuel_label">Última Carga</string>
+    <string name="car_record_button">Registrar Carga</string>
+    <string name="car_refresh_button">Actualizar</string>
+
+    <!-- Units -->
+    <string name="unit_km_per_gallon">km/gal</string>
+    <string name="unit_soles">S/</string>
+    <string name="unit_gallon">galón</string>
+    <string name="unit_km">km</string>
+</resources>
